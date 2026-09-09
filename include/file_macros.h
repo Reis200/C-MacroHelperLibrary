@@ -1,0 +1,1 @@
+#define TESTFAIL(c) {if(c){free(data); if(in!=NULL)fclose(in); return NULL;}}
